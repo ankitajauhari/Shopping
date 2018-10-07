@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="30313" started-at="2018-10-07T02:31:11Z" finished-at="2018-10-07T02:31:41Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="30313" started-at="2018-10-07T02:31:11Z" finished-at="2018-10-07T02:31:41Z">
+      <class name="store.pages.test.LoginPageTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:store.pages.test.LoginPageTest@8e7350]" name="init" is-config="true" duration-ms="21501" started-at="2018-10-07T02:31:11Z" finished-at="2018-10-07T02:31:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="userlogin()[pri:0, instance:store.pages.test.LoginPageTest@8e7350]" name="userlogin" duration-ms="6283" started-at="2018-10-07T02:31:33Z" finished-at="2018-10-07T02:31:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userlogin -->
+        <test-method status="PASS" signature="shut()[pri:0, instance:store.pages.test.LoginPageTest@8e7350]" name="shut" is-config="true" duration-ms="2396" started-at="2018-10-07T02:31:39Z" finished-at="2018-10-07T02:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shut -->
+      </class> <!-- store.pages.test.LoginPageTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
