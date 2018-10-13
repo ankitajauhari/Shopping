@@ -33,6 +33,7 @@ public class Base {
 			driver=new ChromeDriver();
 			f=new File("C:\\Users\\admin\\eclipse-workspace\\Selenium\\resources\\data.properties");
 			 Prop = new Properties();
+			 wait = new WebDriverWait(driver,50);
 			 FileInputStream fileInput = null;
 			 fileInput = new FileInputStream(f);
 				Prop.load(fileInput);

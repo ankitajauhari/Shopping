@@ -36,7 +36,7 @@ public Iterator<Object[]> login()
 }
 */
 
-@Test
+@Test(priority=1)
 public void userlogin()
 {
 	
@@ -46,11 +46,11 @@ log.info("login");
 lp.userLogin(user, pass);
 }
 
-@AfterTest
+/*@AfterTest
 public void shut()
 {
 	close();
 }
-	
+	*/
 
 }

@@ -21,7 +21,7 @@ public class ProductDetailPage extends DressesPage{
 private List<String> productURL;
 
 
-@Test
+
 public void openNewTab() throws InterruptedException
 {
 	

@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="30313" started-at="2018-10-07T02:31:11Z" finished-at="2018-10-07T02:31:41Z">
+  <suite name="Suite1" duration-ms="32273" started-at="2018-10-13T04:46:26Z" finished-at="2018-10-13T04:46:58Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="30313" started-at="2018-10-07T02:31:11Z" finished-at="2018-10-07T02:31:41Z">
+    <test name="Login" duration-ms="25441" started-at="2018-10-13T04:46:26Z" finished-at="2018-10-13T04:46:51Z">
       <class name="store.pages.test.LoginPageTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:store.pages.test.LoginPageTest@8e7350]" name="init" is-config="true" duration-ms="21501" started-at="2018-10-07T02:31:11Z" finished-at="2018-10-07T02:31:33Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:store.pages.test.LoginPageTest@42a311]" name="init" is-config="true" duration-ms="19922" started-at="2018-10-13T04:46:26Z" finished-at="2018-10-13T04:46:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="userlogin()[pri:0, instance:store.pages.test.LoginPageTest@8e7350]" name="userlogin" duration-ms="6283" started-at="2018-10-07T02:31:33Z" finished-at="2018-10-07T02:31:39Z">
+        <test-method status="PASS" signature="userlogin()[pri:1, instance:store.pages.test.LoginPageTest@42a311]" name="userlogin" duration-ms="5419" started-at="2018-10-13T04:46:46Z" finished-at="2018-10-13T04:46:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userlogin -->
-        <test-method status="PASS" signature="shut()[pri:0, instance:store.pages.test.LoginPageTest@8e7350]" name="shut" is-config="true" duration-ms="2396" started-at="2018-10-07T02:31:39Z" finished-at="2018-10-07T02:31:41Z">
+      </class> <!-- store.pages.test.LoginPageTest -->
+    </test> <!-- Login -->
+    <test name="BuyProduct" duration-ms="6582" started-at="2018-10-13T04:46:51Z" finished-at="2018-10-13T04:46:58Z">
+      <class name="store.pages.test.BuyProductTest">
+        <test-method status="PASS" signature="addItemtoCart()[pri:2, instance:store.pages.test.BuyProductTest@397ed7]" name="addItemtoCart" duration-ms="6576" started-at="2018-10-13T04:46:51Z" finished-at="2018-10-13T04:46:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- shut -->
-      </class> <!-- store.pages.test.LoginPageTest -->
-    </test> <!-- Test1 -->
+        </test-method> <!-- addItemtoCart -->
+      </class> <!-- store.pages.test.BuyProductTest -->
+    </test> <!-- BuyProduct -->
   </suite> <!-- Suite1 -->
 </testng-results>
